@@ -2606,7 +2606,7 @@ progress {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border-radius: 1.5rem;
+  border-radius: 10px;
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2633,10 +2633,10 @@ progress {
 .form-control:focus {
   color: #5E6282;
   background-color: #F5F5F5;
-  border-color: #f8d280;
+  border-color: #4372b8;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(241, 165, 1, 0.25);
-  box-shadow: 0 0 0 0.25rem rgba(241, 165, 1, 0.25);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(84, 120, 159, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(84, 120, 159, 0.25);
 }
 
 .form-control::-webkit-date-and-time-value {
@@ -2927,10 +2927,10 @@ textarea.form-control-lg {
 }
 
 .form-check-input:focus {
-  border-color: #f8d280;
+  border-color: #4372b8;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(241, 165, 1, 0.25);
-  box-shadow: 0 0 0 0.25rem rgba(241, 165, 1, 0.25);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(78, 119, 169, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(78, 119, 169, 0.25);
 }
 
 .form-check-input:checked {
@@ -3491,11 +3491,11 @@ textarea.form-control-lg {
 }
 
 .was-validated .form-check-input:invalid, .form-check-input.is-invalid {
-  border-color: #DF6951;
+  border-color: #4372b8;
 }
 
 .was-validated .form-check-input:invalid:checked, .form-check-input.is-invalid:checked {
-  background-color: #DF6951;
+  background-color: #4372b8;
 }
 
 .was-validated .form-check-input:invalid:focus, .form-check-input.is-invalid:focus {
